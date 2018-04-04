@@ -12,7 +12,7 @@ react +react-redux + react-router4 + webpack + es6/7 + axios + antd-mobile组件
 #### 注意：由于涉及大量的 ES6/7 等新属性，nodejs 必须是 6.0 以上版本
 
 ```
-git clone https://github.com/lins/Boss.git  
+git clone https://github.com/linixili/Boss.git  
 
 cd Boss
 
@@ -37,4 +37,4 @@ node(nodemon) server.js(访问本地后台，需要开启mongodb)
 
 # License
 
-[GPL](https://github.com/lins/Boss/COPYING)
+[GPL](https://github.com/linixili/Boss/COPYING)
