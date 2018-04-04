@@ -1,0 +1,16 @@
+.avatarInfo{
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    text-align: center;
+    color:#666;
+    border-radius:50%;
+    line-height:100px;
+    margin: 10px auto;
+    overflow:hidden;
+}
+.avatarInfo img{
+    width: 100%;
+    display: block;
+    height:100%;
+}

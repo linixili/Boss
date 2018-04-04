@@ -1,0 +1,74 @@
+.err_msg,.normal_msg{
+    height:10px;
+    color:red;
+    font-size:10px;
+    line-height:10px;
+    padding-left: 20px;
+}
+.normal_msg{
+    color:green;
+}
+.stick-footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+.fixed-header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+    width: 100%;
+}
+#chatpage .am-list-item .am-list-line .am-list-extra{
+    flex-basis:auto;
+    margin-left:15px;
+}
+
+#chatpage .am-list-item .am-list-line .am-list-content{
+    padding-left:15px;
+    text-align: right;
+    flex-basis:auto;
+    width:auto;
+}
+#chatpage .am-list-item .leftMessage{
+    padding-left:15px;
+    text-align: left;
+    margin:0 0 0 15px;
+    flex-basis:auto;
+    width:auto;
+    font-size:18px;
+}
+#chatpage  .am-list-content{
+    font-size:18px!important;
+}
+#chatpage .from_others .am-list-item .am-list-line .am-list-extra {
+    position: absolute;
+    top:0;
+    left:-15px;
+}
+#chatpage .am-list-item .am-list-line .am-list-extra img{
+    width: 30px;
+    height: 30px;
+}
+#chatpage .am-list-body::before{
+     display: none!important;
+ }
+#chatpage .am-list-body::after{
+    display: none!important;
+}
+#chatpage .inputBox{
+    border-top:1px solid #eee;
+    border-radius:3px;
+}
+#chatpage .messageList{
+margin:45px 0;
+}
+#chatpage  .am-grid-icon{
+    display:none!important;
+}
+#chatpage .am-grid-text{
+    margin-top:0;
+    font-size:30px;
+}
